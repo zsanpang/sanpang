@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<meta  name="keywords" content="无人机，航拍无人机，大疆无人机，购买无人机">
+	<meta name="description" content="DJI大疆官方商城提供精灵Phantom系列，“悟”Inspire系列，灵眸Osmo，如影Ronin系列等专业的航拍和地面影像设备、配件以及行业应用和飞控系统的购买，体验中心预约，以及旧产品回收等服务。">
+	<title>我的购物车 | DJI 官方商城</title>
+	<link rel="shortcut icon"  href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/cart.css">
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script> 
+	<script>  
+$(document).ready(function(){  
+//获得文本框对象  
+var t = $("#text_box");  
+//初始化数量为1,并失效减  
+$('#min').attr('disabled',true);  
+    //数量增加操作  
+    $("#add").click(function(){      
+        // 给获取的val加上绝对值，避免出现负数  
+        t.val(Math.abs(parseInt(t.val()))+1);  
+        if (parseInt(t.val())!=1){  
+        $('#min').attr('disabled',false);  
+        };  
+    })   
+    //数量减少操作  
+    $("#min").click(function(){  
+    t.val(Math.abs(parseInt(t.val()))-1);  
+    if (parseInt(t.val())==1){  
+    $('#min').attr('disabled',true);  
+    };  
+    })  
+  
+});  
+</script>  
+</head>
+<body>
+	<div id="clean-top">
+		<div class="header-top">
+			<div class="container">
+				<nav class="nav-main"><div><a href="index.html"><i class="iconfont">&#xe610;</i><span>商城</span></a></div></nav>
+				<div class="nav-right">
+					<ul>
+						<li><a href="login.html">登录</a><a href="">注册</a></li>
+						<li><a href="register.html" class="nav-item">中国大陆(简体中文/¥CNY)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="pull-bottom">
+			<div class="container">
+				<div class="store-masthead"><h2>我的购物车</h2><span>全场满  ¥99  顺丰包邮，支持支付宝、微信、银联、转账付款、顺丰到付、分期支付（订单¥500以上可用，3期免息）</span></div>
+				<div class="store-navigation"><a href=""><i class="iconfont">&#xe60a;</i>购买指南</a></div>
+			</div>
+		</div>
+	</div>
+	<div id="Shopping-Cart">
+		<table class="shop_table">
+			<thead>
+				<tr>
+					<th>商品</th>
+					<th style="width: 433px;">&nbsp;</th>
+					<th>价格</th>
+					<th style="width: 234px;">数量</th>
+					<th>小计</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="cart_table_item" >
+					<td class="product-thumbnail"><a href=""><img src="images/dj4.png" alt=""></a></td>
+					<td style="padding: 8px 10px;"><a href="">"晓" Spark (初雪白)</a><p>发货时间：订单付款后1个工作日。</p></td>
+					<td><span>￥3299.00</span> </td>
+					<td class="product-quantity">
+						<div class="quantity">
+							<input id="min" name="" type="button" value="-" />    
+							<input id="text_box" name="" type="text" value="1">    
+							<input id="add" name="" type="button" value="+" /> 
+						</div>
+					</td>
+					<td><span>￥3299.00</span></td>
+					<td class="cart-actions"><i class="iconfont">&#xe67f;</i></td>
+				</tr>
+				<tr class="empty">
+					<td class="actions" colspan="6">
+						<div class="pull-left"><p>购买即可获得价值支付金额1%的DJI币返利 - 购买越多，返利越多。</p></div>
+						<div class="pull-right"><div>总计（不包括运费）  : &nbsp;<strong class="price-normal">¥3299.00</strong></div><div style="color: #DE706F;font-size: 13px;line-height: 22px;">订单满￥500即可优享分期支付</div></div>
+					</td>
+				</tr>
+				<tr class="empty">
+					<td class="actions" colspan="3">
+						<strong>有优惠券或者 DJI 币？</strong>
+						<p>您可以在结账的时候使用优惠券或者DJI币抵扣。</p>
+					</td>
+					<td class="actions" colspan="3">
+						<div class="actions-continue">
+							<a href=""><i class="iconfont">&#xe61e;</i>&nbsp;继续购物 </a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="" style="background: #44A8F2;"><strong>去结算&nbsp;<i class="iconfont">&#xe6a7;</i></strong> </a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	 	<!-- 底部 -->
+ 	<footer>
+ 		<div class="store-footer">
+ 			<div class="container">
+ 				<div class="section-item" style="width: 115px;">
+ 					<h3>商城热卖</h3>
+ 					<ul>
+ 						<li><a href="">"晓" Spark</a></li>
+ 						<li><a href="">"御" Mavic</a></li>
+ 						<li><a href="">精灵 Phantom 系列</a></li>
+ 						<li><a href="">灵眸 Osmo 系列</a></li>
+ 						<li><a href="">"悟" Inspire 系列</a></li>
+ 					</ul>
+ 				</div>
+ 				<div class="section-item" style="width: 135px;">
+ 					<h3>DJI 官方商城</h3>
+ 					<ul>
+ 						<li><a href="">DJI 币返利计划</a></li>
+ 						<li><a href="">DJI 推广联盟</a></li>
+ 						<li><a href="">DJI Recycle 以旧换新</a></li>
+ 						<li><a href="">激活 Osmo Shield 服务</a></li>
+ 						<li><a href="">企业采购</a></li>
+ 					</ul>
+ 				</div>
+ 				<div class="section-item" style="width: 70px;">
+ 					<h3>购买指南</h3>
+ 					<ul>
+ 						<li><a href="">发货和物流</a></li>
+ 						<li><a href="">支付方式</a></li>
+ 						<li><a href="">DJI 币介绍</a></li>
+ 						<li><a href="">订单帮助</a></li>
+ 						<li><a href="">退换货条款</a></li>
+ 					</ul>
+ 				</div>
+ 				<div class="section-item" style="width: 70px;">
+ 					<h3>关于大疆</h3>
+ 					<ul>
+ 						<li><a href="">关于我们</a></li>
+ 						<li><a href="">精彩活动</a></li>
+ 						<li><a href="">招募精英</a></li>
+ 						<li><a href="">联系我们</a></li>
+ 					</ul>
+
+ 				</div>
+ 				<div class="section-item" style="width: 180px;">
+ 					<h3>订阅</h3>
+ 					<p>第一时间了解我们的促销活动、热销产品和最新信息。</p>
+ 					<input type="email" placeholder="请输入您的邮箱">
+ 					<button disabled="">订阅</button>
+ 				</div>
+ 				<div class="section-item" style="width: 115px;">
+ 					<h3>安全购物</h3>
+ 					<p><img src="images/1.gif" alt="安全购物"></p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="www-footer">
+ 			<div class="www-footer-container">
+ 				<ul>
+ 					<li style="width: 295px;height: 30px;"><a href=""><img src="images/logo2.png" alt=""></a></li>
+ 					<li class="container-right">© 2018 DJI 大疆创新 版权所有 <span><a href="">隐私权政策</a><a href="">使用条款</a><a href="">网站地图</a></span></li>
+ 					<li class="footer-social">
+ 						<a href=""><i class="iconfont">&#xe686;</i></a>
+ 						<a href=""><i class="iconfont">&#xe683;</i></a>
+ 						<a href=""><i class="iconfont">&#xe7da;</i></a>
+ 						<a href=""><i class="iconfont">&#xe860;</i></a>
+ 						<a href=""><i class="iconfont">&#xe639;</i></a>
+ 						<a href=""><i class="iconfont">&#xe69a;</i></a>
+ 						<a href=""><i class="iconfont">&#xe67b;</i></a>
+ 						<a href=""><i class="iconfont">&#xe623;</i></a>
+ 					</li>
+ 				</ul>
+ 			</div>
+ 		</div>
+	</footer>
+	<!-- 右侧箭头 -->
+	<button id="goto-top"><a href="#"><i class="iconfont">&#xe602;</i></a></button>
+	<!-- 客服 -->
+	<figure> <a href=""><i class="iconfont">&#xe64a;</i></a></figure>
+</body>
+</html>

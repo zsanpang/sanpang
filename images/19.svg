@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="45" cy="45" r="45"></circle>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DJI-PRIME-有资格" transform="translate(-419.000000, -1016.000000)">
+            <g id="item" transform="translate(420.000000, 1016.000000)">
+                <g id="Oval-3">
+                    <use fill="#D1B56F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#FFFFFF" stroke-width="6" cx="45" cy="45" r="42"></circle>
+                    <circle stroke="#D1B56F" stroke-width="2" cx="45" cy="45" r="44"></circle>
+                </g>
+                <text id="描述" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="21" fill="#707473">
+                    <tspan x="110" y="83">您购买的新品订单将进入专门开设的Prime绿色通道，在新品发</tspan>
+                    <tspan x="110" y="104">售期间，Prime会员将获得优先发货的尊享服务。</tspan>
+                </text>
+                <text id="副标题" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="51">尊享Prime会员，可优先获得DJI的各种新品</tspan>
+                </text>
+                <text id="标题" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="21">新品优先发货</tspan>
+                </text>
+            </g>
+            <path d="M475.587804,1086 L478.820101,1083.3904 L476.06407,1056.32709 L485.515432,1047.5428 C487.468319,1045.80142 489.168775,1041.63879 486.956062,1039.04496 C484.361251,1036.83077 480.198116,1038.53123 478.457232,1040.48461 L469.673431,1049.93596 L442.609601,1047.17993 L440,1050.41223 L462.109383,1058.20405 L453.900454,1066.88233 L444.894297,1066.87543 L442.470074,1069.38987 L453.516877,1072.48264 L456.61014,1083.52993 L459.124587,1081.1062 L459.117684,1072.09956 L467.795977,1063.89113 L475.587804,1086 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

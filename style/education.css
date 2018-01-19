@@ -1,0 +1,97 @@
+#banner{width: 100%;height: 800px;margin-bottom: 20px;max-height: 1280px;/*position: relative;*/display: flex;}
+#banner .mask{z-index: -8;background: url(../images/ed1.jpg) no-repeat center;width: 100%;height: 800px; position: relative;background-size: cover; background-position: 50%;}
+#banner .mask .content{width: 100%;position: absolute;top: 50%;text-align: center;transform:  translateY(-50%);}
+#banner .mask .content h1{font-size: 40px;color: #333;margin-bottom: 10px;}
+
+
+
+#section-container{width: 1200px;height: 1254px;margin:0px auto;margin-bottom: 10px;color: #333;background: #fff;box-shadow: 0 0 4px rgba(0,0,0,.1);padding: 60px 100px;text-align: center;}
+.section-container{padding:40px 0px;border-bottom: 1px solid #eee;padding-top: 0px;}
+.section-container h2{font-size: 40px;line-height: 40px;font-weight: 300;}
+.section-container p{line-height: 24px;padding: 30px 100px 0;font-size: 16px;}
+
+.product{padding: 40px 0;padding-bottom: 90px;border-bottom: 1px solid #eee; }
+.product h4{    font-size: 26px;color: #4a4a4a;font-weight: 300;line-height: 39px;}
+.product ul{width: 1000px;height: 292px;font-size: 14px;}
+.product ul li{float: left;width: 250px;height: 292px;position: relative;}
+.product ul li div{width: 250px;height: 160px;    margin: 30px 0 10px;}
+.product ul li div .pic{background: rgba(68,168,242,.5);border-radius: 100%;width: 160px;height: 160px;margin: 0 auto;    justify-content: center;}
+.product ul li img{margin-top: 25%;max-width: 93px;max-height: 72px;}
+.product ul li div span{position: absolute;top: 50%;color: #fff;font-size: 20px;left: 50%;transform:translate3d(-50%,0,0);}
+.product ul li p{width: 210px;margin:0px auto;}
+.product ul li i{position: absolute;right: -10%;top: 35%;font-size: 40px;font-weight: 200;}
+
+
+.slider{width: 1000px;height: 446px;padding: 40px 0;padding-bottom: 30px;border-bottom: 1px solid #eee;}
+.slider h4{    font-size: 26px;color: #4a4a4a;font-weight: 300;line-height: 39px;}
+.slider p{height: 64px;padding: 20px 100px;}
+.slider p a{color: #44a8f2;font-size: 16px;}
+
+
+
+
+
+.btn{width: 1000px;height: 68px;padding-top: 20px;}
+.btn button{height: 48px;color: #fff;background: #44a8f2;border: 1px solid #44a8f2;line-height: 48px;padding: 0 50px; font-size: 16px; cursor: pointer;}
+
+
+
+
+
+#problem{width: 1200px;height: 450px; text-align: center;   padding: 60px 100px;margin:0px auto;margin-bottom: 10px;background: #fff;box-shadow: 0 0 4px rgba(0,0,0,.1);}
+#problem h2{font-size: 40px;line-height: 40px;font-weight: 300;color: #333;}
+
+#problem button.accordion {background-color: #fff;color: #444;cursor: pointer;padding: 18px;width: 100%;border: none;text-align: left;outline: none;font-size: 15px;transition: 0.4s;box-shadow: 0 0 4px rgba(0,0,0,.1);margin-top: 20px;}
+
+#problem button.accordion.active, button.accordion:hover {background-color: #fff;}
+
+#problem button.accordion:after {content: '\002B';color: #777;font-weight: bold;float: right;margin-left: 5px;}
+
+#problem button.accordion.active:after {content: "\2212";}
+
+#problem div.panel {padding: 0 18px;background-color: #fff;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;background:rgb(247, 248, 249);font-size: 15px;}
+#problem div.panel p{padding: 18px;text-align: left;color: #444;}
+
+
+
+
+
+
+
+
+
+
+
+#Contact{width: 1200px;height: 305px;margin:0px auto;background: red;margin-bottom: 60px;background: #fff;box-shadow: 0 0 4px rgba(0,0,0,.1);}
+#Contact .text-contact{width: 1200px;height: 305px;padding: 60px 100px;text-align: center;}
+#Contact .text-contact h2{font-size: 40px;line-height: 40px;font-weight: 300;color: #333;}
+#Contact .text-contact p{margin-bottom: 30px;margin-top: 20px;line-height: 24px;color: #333;font-size: 16px;}
+#Contact .text-contact img{width: 72px;height: 72px;margin-right: 10px;}
+#Contact .text-contact a{color: #44a8f2;font-size: 16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

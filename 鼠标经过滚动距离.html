@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>test</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        #header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 30px;
+            width: 100%;
+            background: #555;
+            opacity: 0.8;
+        }
+        #nav,.nav{
+            height: 30px;
+            width: 100%;
+            background: #000;
+            opacity: 0.8;
+        }
+        .fixed{
+            position: fixed;
+            top:30px;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div style="margin-top:30px;">
+<script type="text/javascript">
+    //document.write('<div id="nav"></div>');
+    for(var i=0;i<100;i++)
+        document.write('<div>'+i+' hello world'+'</div>');
+</script>
+</div>
+<div id="nav"></div>
+<script type="text/javascript">
+    for(var i=100;i<200;i++)
+        document.write('<div>'+i+' hello world'+'</div>');
+</script>
+<script type="text/javascript">
+function getElementViewTop(element){
+　　var actualTop = element.offsetTop;
+　　var current = element.offsetParent;
+　　while (current !== null){
+        actualTop += current.offsetTop;
+        current = current.offsetParent;
+　　}
+    var elementScrollTop=0;
+　　if (document.compatMode == "BackCompat"){
+        elementScrollTop=document.body.scrollTop;
+　　} else {
+        elementScrollTop=document.documentElement.scrollTop; 
+　　}
+    return actualTop;
+　//　return actualTop-elementScrollTop;
+}
+function getScroll()
+{
+    var top, left, width, height;
+ 
+    if (document.documentElement && document.documentElement.scrollTop) {
+        top = document.documentElement.scrollTop;
+        left = document.documentElement.scrollLeft;
+        width = document.documentElement.scrollWidth;
+        height = document.documentElement.scrollHeight;
+    } else if (document.body) {
+        top = document.body.scrollTop;
+        left = document.body.scrollLeft;
+        width = document.body.scrollWidth;
+        height = document.body.scrollHeight;
+    }
+    return { 'top': top, 'left': left, 'width': width, 'height': height };
+}
+var nav = document.getElementById('nav');   
+var posTop = getElementViewTop(nav);
+window.addEventListener('scroll',function(event){
+    var scrollTop = getScroll().top;
+    var output = document.getElementById('output');
+    output.innerHTML = posTop +' '+scrollTop+' '+(posTop-scrollTop);
+    if(posTop>=30 && posTop-scrollTop <= 30) 
+        nav.className = 'nav fixed';
+    else nav.className = 'nav';
+},false);
+</script>
+<div id="output" style="position:fixed;width:60px;height:60px;right:100px;bottom:100px;background:#DDD">0</div>
+</body>
+</html>

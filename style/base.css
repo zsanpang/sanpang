@@ -1,0 +1,35 @@
+/* CSS Document */
+*,:before,:after{ margin:0; padding:0; box-sizing:border-box;}
+html,body,div,p,ul,li,ol,dl,dt,dd,a,img,b,i,em,strong,span,h1,h2,h3,h4,h5,h6,form,input,select,label,textarea,button,fieldset,legend,optgroup,blockquot,sub,sup,pre,table,tr,td,th,tbody,thead,tfoot,u,s,caption,nav,header,article,section,footer,aside,figure,figcaption,audio,video,source{ margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6,em,i,strond,b{ font-weight:normal; font-style:normal;font-size:100%;}
+
+ul,ol,li{ list-style:none;}
+
+fieldset,img{ border:0 none;vertical-align: middle;/*垂直居中*/}
+table{ border-collapse:collapse;/*边线重叠*/ border-spacing:0;}
+input, select, textarea { font: 12px/20px  Arial, "微软雅黑";}
+
+input,button,select,textarea{ outline:none}
+:foucs{ outline:none;}/*表单获得焦点，去掉蓝色框线*/
+
+/*超链接*/
+a { color: #333; text-decoration: none; }
+a:link, a:visited{ color: #333; text-decoration: none;}
+a:hover { /*color: #f69;*/ text-decoration: underline;}
+a:active { text-decoration: none;}
+
+
+/* Clearfix,避免因子元素浮动而导致的父元素高度缺失能问题 */
+.clearfix:after{ content:''; clear:both; height:0; display:block; line-height:0;  font-size:0; visibility:hidden;}
+.clear{ zoom:1;}/*触发ie6 的after的属性*/
+
+/*文字方面*/
+.fl{ float:left;}
+.fr{ float:right;}
+
+body { font-family:"微软雅黑", Arial; font-size:14px; color: #666; min-width: 1200px;/*最小宽度1200px*/}
+.wrap{ width:1200px; margin:0 auto;}/*版心*/
+
+
+

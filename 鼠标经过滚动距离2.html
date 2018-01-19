@@ -1,0 +1,43 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <meta charset="utf-8">    
+    <script type="text/javascript">  
+    //监听滚动的方法  
+    window.onscroll=function(){  
+    //获得滚动的像素，这个方法一滚动就会被执行  
+    var top = document.documentElement.scrollTop||document.body.scrollTop;    
+    if(top>100){  
+        var side = document.getElementById("side");  
+        side.style.position = "fixed";  
+        side.style.top = "50px";  
+    }else{  
+        var side = document.getElementById("side");  
+        side.style.position = "absolute";  
+        side.style.top = "200px";  
+    }  
+}  
+</script>  
+<style type="text/css">  
+    #side{  
+    width: 595px;  
+    height: 500px;  
+    background: purple;  
+    position: absolute;  
+    left:20px;  
+    top: 700px;  
+}  
+.box{  
+    width: 100%;  
+    height: 5000px;  
+    background: yellow;  
+}  
+</style>  
+</head>    
+<body>  
+<div class="box">  
+<div id="side">  
+</div>  
+</div>  
+</body>    
+</html>    

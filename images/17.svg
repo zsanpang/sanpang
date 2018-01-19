@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="45" cy="45" r="45"></circle>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DJI-PRIME-有资格" transform="translate(-420.000000, -817.000000)">
+            <g id="item" transform="translate(420.000000, 817.000000)">
+                <g id="Oval-3">
+                    <use fill="#D1B56F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#FFFFFF" stroke-width="6" cx="45" cy="45" r="42"></circle>
+                    <circle stroke="#D1B56F" stroke-width="2" cx="45" cy="45" r="44"></circle>
+                </g>
+                <text id="描述" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="21" fill="#707473">
+                    <tspan x="110" y="83">从成为Prime会员起，即可通过”我的卡包查收5张8折的Prime配</tspan>
+                    <tspan x="110" y="104">件优惠券，为期一年有效，全场配件均享有折扣。</tspan>
+                </text>
+                <text id="副标题" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="51">意想不到的配件折扣，尽在Prime Coupon</tspan>
+                </text>
+                <text id="标题" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="21">Coupon优惠包</tspan>
+                </text>
+            </g>
+            <path d="M478.989639,866.341818 L480.03882,866.341818 L480.03882,864.116991 L488,861.591169 L484.967869,851.965686 L483.966951,852.283519 C483.193083,852.533692 482.344918,852.349259 481.743795,851.800095 C481.142672,851.250931 480.880543,850.421041 481.05672,849.624838 C481.232896,848.828635 481.820427,848.187915 482.596721,847.945421 L483.597639,847.627588 L480.569705,838 L442.390033,850.100788 L444.324721,856.244848 L440,856.244848 L440,866.348133 L441.04918,866.348133 C441.875649,866.322909 442.650329,866.750785 443.070993,867.464833 C443.491657,868.17888 443.491657,869.065968 443.070993,869.780016 C442.650329,870.494063 441.875649,870.921939 441.04918,870.896715 L440,870.896715 L440,881 L480.03882,881 L480.03882,870.896715 L478.989639,870.896715 C477.764303,870.859319 476.790295,869.852119 476.790295,868.622424 C476.790295,867.392729 477.764303,866.385529 478.989639,866.348133 L478.989639,866.341818 Z M445.023475,851.471046 L479.201574,840.641588 L481.008262,846.377307 C479.296363,847.427909 478.518762,849.513701 479.123358,851.433264 C479.727954,853.352827 481.559064,854.611874 483.561967,854.485193 L485.368656,860.220911 L480.040918,861.904792 L480.040918,856.244848 L446.525902,856.244848 L445.023475,851.471046 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

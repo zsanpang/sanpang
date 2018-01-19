@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="45" cy="45" r="45"></circle>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DJI-PRIME-有资格" transform="translate(-990.000000, -818.000000)">
+            <g id="item" transform="translate(990.000000, 817.000000)">
+                <g id="Oval-3">
+                    <use fill="#D1B56F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#FFFFFF" stroke-width="6" cx="45" cy="45" r="42"></circle>
+                    <circle stroke="#D1B56F" stroke-width="2" cx="45" cy="45" r="44"></circle>
+                </g>
+                <text id="描述" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="21" fill="#707473">
+                    <tspan x="110" y="83">限定机型的DJI Care五折优惠，在您下一次购买主机的时候即可</tspan>
+                    <tspan x="110" y="104">使用，Prime Care致力于为您的飞行保驾护航。</tspan>
+                </text>
+                <text id="副标题" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="51">更低价格，用心呵护您的消费级飞行器</tspan>
+                </text>
+                <text id="标题" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="110" y="21">DJI Care五折优惠</tspan>
+                </text>
+            </g>
+            <path d="M1032.09656,884.944389 L1033.97281,886.26713 L1035,887 L1036.02719,886.26713 L1037.90344,884.938431 C1041.39469,882.477656 1045.02844,879.933466 1047.86063,877.192651 C1052.0525,873.188679 1054,869.405164 1054,865.293942 L1054,845.983118 L1035,839 L1016,845.983118 L1016,865.293942 C1016,869.405164 1017.9475,873.188679 1022.13344,877.210526 C1024.99531,879.939424 1028.60531,882.483615 1032.09656,884.944389 Z M1027.22187,859.049652 L1031.93625,864.567031 L1043.03344,853.705065 L1045.52125,856.26713 L1031.70469,869.786495 L1024.52031,861.373386 L1027.22187,859.049652 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

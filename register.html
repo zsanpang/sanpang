@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta  name="keywords" content="无人机，航拍无人机，大疆无人机，购买无人机">
+	<meta name="description" content="DJI大疆官方商城提供精灵Phantom系列，“悟”Inspire系列，灵眸Osmo，如影Ronin系列等专业的航拍和地面影像设备、配件以及行业应用和飞控系统的购买，体验中心预约，以及旧产品回收等服务。">
+	<title>DJI账号&nbsp;|&nbsp;注册</title>
+	<link rel="shortcut icon"  href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style/iconfont.css">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+</head>
+<body>
+	<div id="main-container">
+		<div class="page-wrap">
+			<div class="f-container">
+				<div class="swiper-container">
+    				<div class="swiper-wrapper">
+    					<div class="swiper-slide"><img src="images/login2.jpg" alt=""><div class="title-container"><div class="title1">Fishermen close the net</div><div class="title2">by Ge Zheng</div></div></div>
+      					<div class="swiper-slide"><img src="images/login1.jpg" alt=""><div class="title-container"><div class="title1">Overbridge</div><div class="title2">by Chenghan</div></div></div>
+      					<div class="swiper-slide"><img src="images/login3.jpg" alt=""><div class="title-container"><div class="title1">Exploration</div><div class="title2">by Hanbing Wang</div></div></div>
+    				</div>
+					<div class="swiper-pagination swiper-pagination-white"></div>
+    				<!-- 左右箭头 -->
+    				<div class="swiper-button-next swiper-button-white"></div>
+    				<div class="swiper-button-prev swiper-button-white"></div>
+    			</div>
+    			<div class="right">
+    				<div class="text-center"><a href="index.html" title="DJI"><b class="iconfont">&#xe610;</b></a></div>
+    				<div class="login">注册</div>
+    				<div class="form">
+    					<div class="child">
+    						<div class="hd">
+    							<ul >
+									<li onclick="show1()" class="show1">手机注册</li>
+									<li onclick="show2()" class="show2">邮箱注册</li>
+								</ul>
+							</div>
+							<div class="bd">
+								<div class="bd1" id="boxImg1">
+									<div class="phone-box">
+										<button type="button" class="secondary">+86</button>
+										<div class="d-input"><label for="">请输入手机号*</label><input type="text"></div>
+									</div>
+									<div class="d-input">
+										<label for="">短信验证码*</label><input type="password"><button type="button" autofocus="autofocus"><a href="">发送验证码</a></button>
+									</div>
+									<button type="button" autofocus="autofocus"><a href="">下一步</a></button>
+									<div class="to-login">
+										<a href="login.html">立即登录<i class="iconfont">&#xe611;</i></a>
+									</div>
+								</div>
+
+								<div class="bd2" id="boxImg2" style="display: none;">
+									<div class="d-input"><label for="">请输入邮箱*</label><input type="text"></div>
+									<div class="d-input"><label for="">密码*</label><input type="password"></div>
+									<div class="d-input"><label for="">再次输入密码*</label><input type="password"></div>
+									<div class="bd2-tips">
+										<p><input type="checkbox"><span>获取大疆最新产品、服务、软件升级等信息。 </span></p>
+										<p><input type="checkbox"><span>同意并愿意遵守大疆创新 <a href="">隐私政策</a>和<a href="">使用条款</a></span></p>
+									</div>
+									<button type="button" autofocus="autofocus"><a href="">提交</a></button>
+									<div class="to-login">
+										<a href="login.html">立即登录<i class="iconfont">&#xe611;</i></a>
+									</div>
+								</div>
+							</div>
+    					</div>
+    				</div>
+    			</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="footer-container">
+				<p>Copyright © 2018 DJI All Rights Reserved.&nbsp;
+					<span><a href=""> 隐私政策</a><a href="">使用条款</a><a href="">网站地图</a></span></p>
+				<p>如果您有任何关于DJI账户的问题，请<a href="">点击此处</a>。</p>
+
+			</div>
+		</footer>	
+	</div>
+
+
+
+  <!-- Swiper JS -->
+  <script src="dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+<!-- 点击切换注册方式 -->
+  <script type="text/javascript">
+		var o1=document.getElementById("boxImg1");
+		var o2=document.getElementById("boxImg2");
+		function show1(){
+			// alert('box1');
+			o1.style.display="block";
+			o2.style.display="none";
+
+
+			
+		}
+
+		function show2(){
+			// alert('box2');
+			o1.style.display="none";
+			o2.style.display="block";
+			
+		}
+	</script>
+</body>
+</html>
