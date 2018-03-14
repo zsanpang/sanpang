@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-link</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,8 L0,1.99810135 L0,1.99810135 C0,0.894580447 0.886706352,0 1.99810135,0 L6.00189865,0 C7.10541955,0 8,0.901950359 8,2.0085302 L8,9.9914698 C8,11.1007504 7.11227036,12 6,12 L4,12" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="12" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M0,17 L0,10.9981014 L0,10.9981014 C0,9.89458045 0.886706352,9 1.99810135,9 L6.00189865,9 C7.10541955,9 8,9.90195036 8,11.0085302 L8,18.9914698 C8,20.1007504 7.11227036,21 6,21 L4,21" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="12" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-link" stroke="#707473" stroke-width="2">
+            <g id="Group-2" transform="translate(12.000000, 11.500000) rotate(45.000000) translate(-12.000000, -11.500000) translate(8.000000, 1.000000)">
+                <use id="Rectangle-16" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                <use id="Rectangle-16" mask="url(#mask-4)" transform="translate(4.000000, 15.000000) scale(-1, -1) translate(-4.000000, -15.000000) " xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
